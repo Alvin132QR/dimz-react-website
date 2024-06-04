@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd src && nodemon server.js",
+    "server": "cd server && nodemon server.js",
     "client": "cd src && npm start"
   },
   "dependencies": {
