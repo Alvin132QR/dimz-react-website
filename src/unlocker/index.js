@@ -8,12 +8,13 @@ function UnlockPage() {
         
         <div class="download-panel" id="downloadPanel">
             <button id="unlockerBtn" >Unlock</button>
-            <button id="downloadBtn" disabled >Dowload</button>
+            <button id="downloadBtn" disabled >Download</button>
         </div>
    </div>
     )
 }
 
+document.addEventListener('DOMContentLoaded', function () {
 document.getElementById('unlockerBtn').addEventListener('click', function () {
    alert("Test")
    document.getElementById("downloadBtn").disabled = false
@@ -22,4 +23,5 @@ document.getElementById('unlockerBtn').addEventListener('click', function () {
 document.getElementById('downloadBtn').addEventListener('click', function () {
    alert("Dimz & Alvqid")
    document.location = "dimzproject.my.id"
+})
 })
