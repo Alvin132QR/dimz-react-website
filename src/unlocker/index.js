@@ -1,4 +1,5 @@
 import React from 'react'
+export default UnlockPage
 
 function UnlockPage() {
    return (
