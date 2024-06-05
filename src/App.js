@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home.js';
-import UnlockPage from './unclocker/index';
+import UnlockPage from './unlocker/index';
 import NoPage from './pages/blank.js';
 import './App.css';
 
