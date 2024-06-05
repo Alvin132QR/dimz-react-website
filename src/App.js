@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home.js';
 import UnlockPage from './unclocker/index';
 import NoPage from './pages/blank.js';
+import './App.css';
 
 function App() {
   return (
