@@ -7,19 +7,21 @@ function UnlockPage() {
         <div class="blur-background" id="blurBackground"></div>
         
         <div class="download-panel" id="downloadPanel">
-            <button id="unlockerBtn" onclick={Ads}>Unlock</button>
-            <button id="downloadBtn" disabled onclick={Goto}>Dowload</button>
+            <button id="unlockerBtn" >Unlock</button>
+            <button id="downloadBtn" disabled >Dowload</button>
         </div>
    </div>
     )
 }
 
-function Ads() {
+document.getElementById('unlockerBtn').addEventListener('click', function () {
    alert("Test")
    document.getElementById("downloadBtn").disabled = false;
+   )
 }
 
-function Goto() {
+document.getElementById('downloadBtn').addEventListener('click', function () {
    alert("Dimz & Alvqid")
    document.location = "dimzproject.my.id"
+   )
 }
