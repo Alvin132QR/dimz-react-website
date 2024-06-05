@@ -16,12 +16,10 @@ function UnlockPage() {
 
 document.getElementById('unlockerBtn').addEventListener('click', function () {
    alert("Test")
-   document.getElementById("downloadBtn").disabled = false;
-   )
-}
+   document.getElementById("downloadBtn").disabled = false
+})
 
 document.getElementById('downloadBtn').addEventListener('click', function () {
    alert("Dimz & Alvqid")
    document.location = "dimzproject.my.id"
-   )
-}
+})
